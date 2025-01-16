@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Модель пользователя 
+# Модель пользователя
 class User < ApplicationRecord		
   validates :email, presence: true
 
